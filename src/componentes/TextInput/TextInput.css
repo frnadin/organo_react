@@ -4,9 +4,10 @@ label{
     font-weight: 700;
 }
 
-/* .input-card{
-    background-color:aqua
-} */
+.input-card{
+    display: block;
+    margin-bottom: 8px;
+}
 
 input{
     margin-top: 10px;

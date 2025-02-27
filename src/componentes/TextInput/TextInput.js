@@ -1,12 +1,12 @@
 
 import './TextInput.css'
 
-const TextInput = ({label, placeHolder}) => {
+const TextInput = (props) => {
     return (
         <div className="input-card">
-            <label>{label}</label>
+            <label>{props.label}</label>
             <br/>
-            <input placeholder={placeHolder} />
+            <input placeholder={`${props.placeHolder}...`} />
         </div>
     )
 }
